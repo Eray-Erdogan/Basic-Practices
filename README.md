@@ -28,4 +28,4 @@ Commit time every week – ideally every day – for practice. Block time on the
 ## AUTHOR
 Bayram Eray ERDOĞAN   
 
-You can fallow me on  [LinkedIn](https://www.linkedin.com/in/bayram-eray-erdogan/)_.
+You can fOllow me on  [LinkedIn](https://www.linkedin.com/in/bayram-eray-erdogan/)_.
