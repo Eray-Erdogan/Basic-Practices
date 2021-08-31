@@ -15,6 +15,16 @@ public class MergeString {
         return a;
     }
 
+    public static String Stringb(){
+        Scanner sc2= new Scanner(System.in);
+        System.out.println("Enter b string: ");
+        String b= sc2.nextLine();
+        b1=b;
+        System.out.println("You have entered b as: "+b);
+        return b;
+    }
+
+
 
     public static void main(String[] args) {
 
