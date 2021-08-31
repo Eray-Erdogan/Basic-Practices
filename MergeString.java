@@ -23,6 +23,22 @@ public class MergeString {
         System.out.println("You have entered b as: "+b);
         return b;
     }
+    public static boolean control(String str){
+        System.out.print("String da.a Length :" );
+        System.out.println(str.length());
+        if(!(str.length()>1 & str.length()<2500)){
+            System.out.println(str+"   String lenght must be like 1 < lenght < 2500 "+"\n" +
+                    "Write proper values.");
+
+            return false;
+        }
+        else {
+            System.out.println("Values are proper.");
+            System.out.println("--------------------------------");
+
+            return true;
+        }
+    }
 
 
 
