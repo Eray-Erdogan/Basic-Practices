@@ -40,6 +40,22 @@ public class MergeString {
         }
     }
 
+    public static String merge(String a1,String b1)    {
+        String merged ="";
+        for (int i = 0; i < a1.length() || i < b1.length() ; i++) {
+
+            // add the ith character if it exists
+            if (i < a1.length())
+                merged+=(a1.charAt(i));
+
+            // add ith character if it exists
+
+            if (i < b1.length())
+                merged+=(b1.charAt(i));
+        }
+        return merged;
+    }
+
 
 
     public static void main(String[] args) {
@@ -54,7 +70,7 @@ public class MergeString {
             System.out.println("--------------------------------");       }
         System.out.println("a1 is "+ a1+"\n"+"b1 is  "+b1);
 
-
+        System.out.println(" Final result  :  "+ merge(a1,b1));
 
     }
 }
