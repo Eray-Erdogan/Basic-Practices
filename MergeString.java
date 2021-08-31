@@ -6,6 +6,15 @@ public class MergeString {
     static String a1="";
     static String b1="";
 
+    public static String Stringa (){
+        Scanner sc1= new Scanner(System.in);
+        System.out.println("Enter da.a string: ");
+        String a= sc1.nextLine();
+        a1=a;
+        System.out.println("You have entered da.a as: "+a);
+        return a;
+    }
+
 
     public static void main(String[] args) {
 
