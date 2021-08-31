@@ -46,6 +46,13 @@ public class MergeString {
 
         // Our function will take two parameter
         // We will merge two string in one string in char order
+        while(!(control(Stringa())))
+        {        System.out.println("Rewrite a again");
+            System.out.println("--------------------------------");    }
+        while(!(control(Stringb())))
+        {        System.out.println("Rewrite b again");
+            System.out.println("--------------------------------");       }
+        System.out.println("a1 is "+ a1+"\n"+"b1 is  "+b1);
 
 
 
